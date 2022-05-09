@@ -1,5 +1,6 @@
 const express = require("express")
 const path = require('path');
+const cors = require("cors")
 const API = require("./services/API.js")
 const service = new API
 const app = express()
